@@ -1,0 +1,17 @@
+<?php
+
+# Custom strings for the DefaultVersions plugin
+
+$s_plugin_DefaultVersions_title = 'Default Versions';
+$s_plugin_DefaultVersions_description = 'Automatic update of product and target version when a bug is submitted';
+
+$s_plugin_DefaultVersions_config = 'Configuration';
+$s_plugin_DefaultVersions_update_config = 'Update Configuration';
+
+$s_plugin_DefaultVersions_set_product_version = 'Submit Issue - Set Product Version';
+
+$s_plugin_DefaultVersions_set_target_version = 'Submit Issue - Set Target Version';
+
+$s_plugin_DefaultVersions_set_target_method = 'Submit Issue - Target Version Method';
+$s_plugin_DefaultVersions_next_minor_unreleased = 'Next Minor Unreleased';
+$s_plugin_DefaultVersions_next_unreleased = 'Next Unreleased';
