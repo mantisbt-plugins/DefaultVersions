@@ -7,7 +7,7 @@
         "cmd /c xcopy pages\\* build\\DefaultVersions\\pages /s /i /y",
         "cmd /c copy /Y LICENSE.txt build\\DefaultVersions",
         "cmd /c copy /Y DefaultVersions.php build\\DefaultVersions",
-        "Compress-Archive -Path build\\DefaultVersions -CompressionLevel Optimal -DestinationPath build\\DefaultVersions.zip",
+        "Compress-Archive -Path build\\DefaultVersions -Update -CompressionLevel Optimal -DestinationPath build\\DefaultVersions.zip",
         "cmd /c rmdir /S /Q build\\DefaultVersions"
     ],
     "changelogFile":     "CHANGELOG.md",
