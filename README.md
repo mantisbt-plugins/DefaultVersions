@@ -28,7 +28,7 @@ This plugin allows for automatic setting of the "product version" and "target ve
 Extract the release archive to the MantisBT installations plugins folder:
 
     cd /var/www/mantisbt/plugins
-    wget -O DefaultVersions.zip https://github.com/mantisbt-plugins/Releases/releases/download/v1.0.0/DefaultVersions.zip
+    wget -O DefaultVersions.zip https://github.com/mantisbt-plugins/DefaultVersions/releases/download/v1.0.0/DefaultVersions.zip
     unzip DefaultVersions.zip
     rm -f DefaultVersions.zip
 
