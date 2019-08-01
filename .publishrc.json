@@ -50,7 +50,7 @@
     "pathPreRoot":       "",
     "postBuildCommand":  "",
     "repoType":          "git",
-    "repo":              "https://github.com/spmeesseman/DefaultVersions.git",
+    "repo":              "https://github.com/mantisbt-plugins/DefaultVersions.git",
     "skipCommit":        "N",
     "skipDeployPush":    "N",
     "testEmailRecip":    "spmeesseman@gmail.com",

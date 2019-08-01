@@ -18,7 +18,7 @@ class DefaultVersionsPlugin extends MantisPlugin
 
         $this->author = "Scott Meesseman";
         $this->contact = "spmeesseman@gmail.com";
-        $this->url = "https://github.com/spmeesseman/mantis-plugins";
+        $this->url = "https://github.com/mantisbt-plugins/DefaultVersions";
     }
 
     public function hooks()
