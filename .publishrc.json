@@ -32,8 +32,8 @@
     "historyLineLen":    80,
     "homePage":          "",
     "interactive":       "N",
-    "mantisbtPlugin":    "DefaultVersions.php",
     "mantisbtRelease":   "Y",
+    "mantisbtPlugin":    "DefaultVersions.php",
     "mantisbtUrl":       "https://app1.spmeesseman.com/projects",
     "mantisbtApiToken":  "${MANTIS_API_TOKEN}",
     "mantisbtAssets": [
