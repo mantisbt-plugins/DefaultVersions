@@ -4,6 +4,7 @@ access_ensure_global_level(config_get('manage_plugin_threshold'));
 
 layout_page_header(plugin_lang_get('title'));
 layout_page_begin(__FILE__);
+print_manage_menu( 'manage_plugin_page.php' );
 
 $set_product_version = plugin_config_get('set_product_version');
 $set_target_version = plugin_config_get('set_target_version');
@@ -17,6 +18,7 @@ $set_target_method = plugin_config_get('set_target_method');
 	<div class="space-10"></div>
 	<div id="config-div" class="form-container">
 		<form id="config-form" method="post" action="<?php echo plugin_page('config_edit') ?>">
+			<?php echo form_security_field('plugin_DefaultVersions_config_edit') ?>
 			<div class="widget-box widget-color-blue2">
 				<div class="widget-header widget-header-small">
 					<h4 class="widget-title lighter">
