@@ -8,7 +8,7 @@
         "cmd /c copy /Y LICENSE.txt build\\DefaultVersions",
         "cmd /c copy /Y DefaultVersions.php build\\DefaultVersions",
         "Compress-Archive -Path build\\DefaultVersions -Update -CompressionLevel Optimal -DestinationPath build\\DefaultVersions.zip",
-        "tar -czf build/DefaultVersions.tgz build\\DefaultVersions",
+        "tar -C build -czf build/DefaultVersions.tgz DefaultVersions",
         "cmd /c rmdir /S /Q build\\DefaultVersions"
     ],
     "changelogFile":     "CHANGELOG.md",
